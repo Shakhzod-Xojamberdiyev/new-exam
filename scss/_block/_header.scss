@@ -1,5 +1,8 @@
 .main-wrap{
-  background-image: var(--header-bg);
+  background-image: url("../images/bg-color.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 .nav-open{
   display: none;

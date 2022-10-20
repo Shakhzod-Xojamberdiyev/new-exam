@@ -19,17 +19,21 @@ elCloseModalBtn.addEventListener("click" , function(){
 });
 
 $(function () {
-    $('.carousel').slick({
-        slidesToShow: 4,
+    $('.carouselll').slick({
+        infinite: true,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        // prevArrow: "<span><img src='./images/arrow-left.svg' alt='Left arrow'></span>",
-        // nextArrow: "<span><img src='./images/arrow-right.svg' alt='Right arrow'></span>",
+        // prevArrow: "<span><img src='./images/slick-btn-left' alt=''></span>",
+        // nextArrow: "<span><img src='./images/slick-btn-right' alt=''></span>",
         autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
+           
+           
             {
                 breakpoint: 1200,
                 settings: {
+                    autoplay:true,
                     centerMode: true,
                     centerPadding: '0',
                     slidesToShow: 3
@@ -54,3 +58,51 @@ $(function () {
         ]
       });
 });
+// $('.carouselll').slick({
+//     dots: true,
+//     infinite: false,
+//     speed: 300,
+//     slidesToShow: 4,
+//     slidesToScroll: 4,
+//     responsive: [
+//       {
+//         breakpoint: 1024,
+//         settings: {
+//           slidesToShow: 3,
+//           slidesToScroll: 3,
+//           infinite: true,
+//           dots: true
+//         }
+//       },
+//       {
+//         breakpoint: 800,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 3,
+//           infinite: true,
+//           dots: true
+//         }
+//       },
+//       {
+//         breakpoint: 600,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 2
+//         }
+//       },
+//       {
+//         breakpoint: 500,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 2
+//         }
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1
+//         }
+//       }
+//     ]
+//   });

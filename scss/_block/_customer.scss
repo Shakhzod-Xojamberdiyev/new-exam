@@ -1,0 +1,35 @@
+.customer{
+    margin-top: 80px;
+}
+.cus-title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+}
+.customer-bottom{
+    margin-top: 80px;
+}
+.cus-link{
+    padding: 12px 30px;
+    color:#FF007A;
+    border: 1px solid #FF007A;
+    border-radius: 32px;
+}
+.left-box{
+    max-width: 624px;
+}
+.cus-img{
+    max-width: 550px;
+}
+@media only screen and (min-width:767px){
+    .customer{
+        margin-top: 200px;
+    }
+    .cus-title{
+        font-size: 48px;
+        line-height: 120%;
+    }
+    .customer-bottom{
+        margin-top: 150px;
+    }
+}

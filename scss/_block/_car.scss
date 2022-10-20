@@ -1,0 +1,97 @@
+
+
+
+.car-wrap{
+    margin-top: 150px;
+    text-align: center;
+}
+.car-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+.car-text{
+    
+}
+
+.person::before{
+    content: "";
+    display: inline-block;
+    margin-right: 15px;
+    background-image: url("../images/brooklyn.png");
+    width: 53px;
+    height: 53px;
+}
+.person-two::before{
+    content: "";
+    display: inline-block;
+    margin-right: 15px;
+    background-image: url("../images/darell.png");
+    width: 53px;
+    height: 53px;
+}
+.person-three::before{
+    content: "";
+    display: inline-block;
+    margin-right: 15px;
+    background-image: url("../images/hary.png");
+    width: 53px;
+    height: 53px;
+}
+.car-item{
+    background: #F7F5FF;
+    border: 0.96024px solid #FF007A;
+    border-radius: 8px;
+}
+.slick-arrow {
+    position: absolute;
+    z-index: 5;
+    bottom: -30%;
+    right: -15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    
+    img {
+        width: 13px;
+        height: 13px;
+    }
+    
+    &:first-child {
+        right: 1020px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .car-title{
+        font-size: 48px;
+        line-height: 120%;
+    }
+    
+    .slick-arrow{
+        right: 1250px;
+        
+        &:first-child{
+            right: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width:1340px){
+    
+    .slick-arrow{
+        right: 1250px;
+        
+        &:first-child{
+            right: -15px;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,50 @@
+.simple-title{
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34px;
+}
+.basic{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+.money{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 120%;
+}
+.simple-item{
+    max-width: 350px;
+}
+.simple-item:hover{
+    border: 0.96024px solid #FF007A;
+    border-radius: 8px;
+}
+.simple-link{
+    padding: 12px 90px;
+    color:#FF007A;
+    border: 1px solid #FF007A;
+    border-radius: 32px;
+}
+.simple-link:hover{
+    color: #fff;
+    background-color: #FF007A;
+}
+
+.simple-done::before{
+    content: "";
+    display: inline-block;
+    margin-right: 19px;
+    background-image: url("../images/check.svg");
+    width: 16px;
+    height: 12px;
+}
+@media only screen and (min-width:575px){
+    .simple-title{
+        margin-top: 200px;
+        font-size: 48px;
+        line-height: 120%;
+    }
+}

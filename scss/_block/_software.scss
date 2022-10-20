@@ -1,0 +1,44 @@
+.software-wrap{
+    padding-top: 81px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 333px;
+}
+.software-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+}
+.software-text{
+    
+}
+.software-list{
+    
+}
+.software-item{
+    max-width: 380px;
+}
+.software-item:hover{
+    background: #F7F5FF;
+    border-radius: 8px;
+}
+.sw-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+}
+.sw-link:hover{
+    color: #FF94C7;
+}
+@media only screen and (min-width:575px){
+    .software-wrap{
+        padding-top: 200px;
+        max-width: 575px;
+    }
+    .software-title{
+        font-size: 48px;
+        line-height: 120%;
+    }
+}

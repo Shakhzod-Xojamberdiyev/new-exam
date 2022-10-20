@@ -45,7 +45,7 @@
 .modal-video::after{
     content: "";
     display: inline-block;
-    background-image: url("../../images/video.svg");
+    background-image: url("../images/video.svg");
     width: 36px;
     height: 36px;
     margin-left: 16px;
@@ -66,6 +66,9 @@
     background-color: #00000080;
     display: none;
     
+  }
+  .close-btn{
+   
   }
   .modal-open{
     display: block;

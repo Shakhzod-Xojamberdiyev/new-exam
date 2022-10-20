@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Slider */
+
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;
 }
@@ -70,6 +70,7 @@
 }
 [dir=rtl] .slick-prev:before {
   content: "→";
+  width: 100px;
 }
 
 .slick-next {
@@ -81,6 +82,8 @@
 }
 .slick-next:before {
   content: "→";
+  display: block;
+  background-image: url("../images/slick-btn-left.svg");
 }
 [dir=rtl] .slick-next:before {
   content: "←";
@@ -148,4 +151,4 @@
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
-}/*# sourceMappingURL=slick-theme.css.map */
+}

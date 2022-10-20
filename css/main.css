@@ -425,7 +425,10 @@ body {
 }
 
 .main-wrap {
-  background-image: var(--header-bg);
+  background-image: url("../images/bg-color.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .nav-open {
@@ -585,7 +588,7 @@ body {
 .modal-video::after {
   content: "";
   display: inline-block;
-  background-image: url("../../images/video.svg");
+  background-image: url("../images/video.svg");
   width: 36px;
   height: 36px;
   margin-left: 16px;
@@ -677,5 +680,241 @@ body {
   .hero-desc {
     font-size: 18px;
     line-height: 155%;
+  }
+}
+.software-wrap {
+  padding-top: 81px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 333px;
+}
+
+.software-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+}
+
+.software-item {
+  max-width: 380px;
+}
+
+.software-item:hover {
+  background: #F7F5FF;
+  border-radius: 8px;
+}
+
+.sw-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+.sw-link:hover {
+  color: #FF94C7;
+}
+
+@media only screen and (min-width: 575px) {
+  .software-wrap {
+    padding-top: 200px;
+    max-width: 575px;
+  }
+  .software-title {
+    font-size: 48px;
+    line-height: 120%;
+  }
+}
+.customer {
+  margin-top: 80px;
+}
+
+.cus-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+}
+
+.customer-bottom {
+  margin-top: 80px;
+}
+
+.cus-link {
+  padding: 12px 30px;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 32px;
+}
+
+.left-box {
+  max-width: 624px;
+}
+
+.cus-img {
+  max-width: 550px;
+}
+
+@media only screen and (min-width: 767px) {
+  .customer {
+    margin-top: 200px;
+  }
+  .cus-title {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .customer-bottom {
+    margin-top: 150px;
+  }
+}
+.car-wrap {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.car-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.person::before {
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("../images/brooklyn.png");
+  width: 53px;
+  height: 53px;
+}
+
+.person-two::before {
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("../images/darell.png");
+  width: 53px;
+  height: 53px;
+}
+
+.person-three::before {
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("../images/hary.png");
+  width: 53px;
+  height: 53px;
+}
+
+.car-item {
+  background: #F7F5FF;
+  border: 0.96024px solid #FF007A;
+  border-radius: 8px;
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 5;
+  bottom: -30%;
+  right: -15px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.slick-arrow img {
+  width: 13px;
+  height: 13px;
+}
+.slick-arrow:first-child {
+  right: 1020px;
+}
+
+@media only screen and (max-width: 768px) {
+  .car-title {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .slick-arrow {
+    right: 1250px;
+  }
+  .slick-arrow:first-child {
+    right: 5px;
+  }
+}
+@media only screen and (max-width: 1340px) {
+  .slick-arrow {
+    right: 1250px;
+  }
+  .slick-arrow:first-child {
+    right: -15px;
+  }
+}
+.simple-title {
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34px;
+}
+
+.basic {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.money {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+}
+
+.simple-item {
+  max-width: 350px;
+}
+
+.simple-item:hover {
+  border: 0.96024px solid #FF007A;
+  border-radius: 8px;
+}
+
+.simple-link {
+  padding: 12px 90px;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 32px;
+}
+
+.simple-link:hover {
+  color: #fff;
+  background-color: #FF007A;
+}
+
+.simple-done::before {
+  content: "";
+  display: inline-block;
+  margin-right: 19px;
+  background-image: url("../images/check.svg");
+  width: 16px;
+  height: 12px;
+}
+
+@media only screen and (min-width: 575px) {
+  .simple-title {
+    margin-top: 200px;
+    font-size: 48px;
+    line-height: 120%;
   }
 }/*# sourceMappingURL=main.css.map */
