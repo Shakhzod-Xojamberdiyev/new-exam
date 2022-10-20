@@ -1,0 +1,44 @@
+/* GENERAL */
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  height: auto;
+}
+
+body{
+  @include stick-footer;
+  margin: 0;
+  font-family: "Nunito", "Roboto", sans-serif !important;
+  overflow-x: hidden; 
+}
+
+.b-container{
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  @include hidden;
+}
+
+/* STICKY-FOOTER */
+.site-main{
+  flex-grow: 1;
+}
